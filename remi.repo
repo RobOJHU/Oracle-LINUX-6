@@ -1,6 +1,6 @@
 [remi]
 name=Les RPM de remi pour Enterprise Linux 6 - $basearch
-#baseurl=http://rpms.famillecollet.com/enterprise/6/remi/$basearch/
+baseurl=http://rpms.famillecollet.com/enterprise/6/remi/$basearch/
 mirrorlist=http://rpms.famillecollet.com/enterprise/6/remi/mirror
 enabled=1
 gpgcheck=1
@@ -8,7 +8,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi
 
 [remi-php55]
 name=Les RPM de remi de PHP 5.5 pour Enterprise Linux 6 - $basearch
-#baseurl=http://rpms.famillecollet.com/enterprise/6/php55/$basearch/
+baseurl=http://rpms.famillecollet.com/enterprise/6/php55/$basearch/
 mirrorlist=http://rpms.famillecollet.com/enterprise/6/php55/mirror
 # WARNING: If you enable this repository, you must also enable "remi"
 enabled=1
@@ -17,7 +17,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi
 
 [remi-php56]
 name=Les RPM de remi de PHP 5.6 pour Enterprise Linux 6 - $basearch
-#baseurl=http://rpms.famillecollet.com/enterprise/6/php56/$basearch/
+baseurl=http://rpms.famillecollet.com/enterprise/6/php56/$basearch/
 mirrorlist=http://rpms.famillecollet.com/enterprise/6/php56/mirror
 # WARNING: If you enable this repository, you must also enable "remi"
 enabled=1
@@ -26,7 +26,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi
 
 [remi-test]
 name=Les RPM de remi en test pour Enterprise Linux 6 - $basearch
-#baseurl=http://rpms.famillecollet.com/enterprise/6/test/$basearch/
+baseurl=http://rpms.famillecollet.com/enterprise/6/test/$basearch/
 mirrorlist=http://rpms.famillecollet.com/enterprise/6/test/mirror
 # WARNING: If you enable this repository, you must also enable "remi"
 enabled=1
